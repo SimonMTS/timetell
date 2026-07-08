@@ -5,7 +5,7 @@
     interval = setInterval(function () {
         const d = Array.from(
             document.querySelectorAll(
-                "#WeekListGrid_DXMainTable tr.dxgvDataRow_TTOffice2010Dark",
+                "#WeekListGrid_DXMainTable tr.dxgvDataRow_MaterialCompact",
             ),
         )
             .map((e) => e.children)
