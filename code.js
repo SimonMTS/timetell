@@ -40,6 +40,7 @@
         }
 
         const newDiv = document.createElement("pre");
+        newDiv.style.fontWeight = "bold";
         const newContent = document.createTextNode(str);
         newDiv.appendChild(newContent);
 
